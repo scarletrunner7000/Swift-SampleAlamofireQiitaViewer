@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC002CD31D64A5320074233E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC002CD21D64A5320074233E /* AppDelegate.swift */; };
+		BC002CD51D64A5320074233E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC002CD41D64A5320074233E /* ViewController.swift */; };
+		BC002CD81D64A5320074233E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC002CD61D64A5320074233E /* Main.storyboard */; };
+		BC002CDA1D64A5320074233E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC002CD91D64A5320074233E /* Assets.xcassets */; };
+		BC002CDD1D64A5320074233E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC002CDB1D64A5320074233E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC002CCF1D64A5320074233E /* SampleAlamofireQiitaViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAlamofireQiitaViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC002CD21D64A5320074233E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC002CD41D64A5320074233E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC002CD71D64A5320074233E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC002CD91D64A5320074233E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC002CDC1D64A5320074233E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC002CDE1D64A5320074233E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC002CCC1D64A5320074233E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC002CC61D64A5320074233E = {
+			isa = PBXGroup;
+			children = (
+				BC002CD11D64A5320074233E /* SampleAlamofireQiitaViewer */,
+				BC002CD01D64A5320074233E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC002CD01D64A5320074233E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC002CCF1D64A5320074233E /* SampleAlamofireQiitaViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC002CD11D64A5320074233E /* SampleAlamofireQiitaViewer */ = {
+			isa = PBXGroup;
+			children = (
+				BC002CD21D64A5320074233E /* AppDelegate.swift */,
+				BC002CD41D64A5320074233E /* ViewController.swift */,
+				BC002CD61D64A5320074233E /* Main.storyboard */,
+				BC002CD91D64A5320074233E /* Assets.xcassets */,
+				BC002CDB1D64A5320074233E /* LaunchScreen.storyboard */,
+				BC002CDE1D64A5320074233E /* Info.plist */,
+			);
+			path = SampleAlamofireQiitaViewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC002CCE1D64A5320074233E /* SampleAlamofireQiitaViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC002CE11D64A5320074233E /* Build configuration list for PBXNativeTarget "SampleAlamofireQiitaViewer" */;
+			buildPhases = (
+				BC002CCB1D64A5320074233E /* Sources */,
+				BC002CCC1D64A5320074233E /* Frameworks */,
+				BC002CCD1D64A5320074233E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleAlamofireQiitaViewer;
+			productName = SampleAlamofireQiitaViewer;
+			productReference = BC002CCF1D64A5320074233E /* SampleAlamofireQiitaViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC002CC71D64A5320074233E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "稲垣悠一";
+				TargetAttributes = {
+					BC002CCE1D64A5320074233E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BC002CCA1D64A5320074233E /* Build configuration list for PBXProject "SampleAlamofireQiitaViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC002CC61D64A5320074233E;
+			productRefGroup = BC002CD01D64A5320074233E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC002CCE1D64A5320074233E /* SampleAlamofireQiitaViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC002CCD1D64A5320074233E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC002CDD1D64A5320074233E /* LaunchScreen.storyboard in Resources */,
+				BC002CDA1D64A5320074233E /* Assets.xcassets in Resources */,
+				BC002CD81D64A5320074233E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC002CCB1D64A5320074233E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC002CD51D64A5320074233E /* ViewController.swift in Sources */,
+				BC002CD31D64A5320074233E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC002CD61D64A5320074233E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC002CD71D64A5320074233E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC002CDB1D64A5320074233E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC002CDC1D64A5320074233E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC002CDF1D64A5320074233E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC002CE01D64A5320074233E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC002CE21D64A5320074233E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleAlamofireQiitaViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inagaki.SampleAlamofireQiitaViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC002CE31D64A5320074233E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleAlamofireQiitaViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inagaki.SampleAlamofireQiitaViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC002CCA1D64A5320074233E /* Build configuration list for PBXProject "SampleAlamofireQiitaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC002CDF1D64A5320074233E /* Debug */,
+				BC002CE01D64A5320074233E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC002CE11D64A5320074233E /* Build configuration list for PBXNativeTarget "SampleAlamofireQiitaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC002CE21D64A5320074233E /* Debug */,
+				BC002CE31D64A5320074233E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC002CC71D64A5320074233E /* Project object */;
+}
